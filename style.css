@@ -4,3 +4,74 @@
     box-sizing: border-box;
 }
 
+html , body {
+    height: 100%;
+}
+
+
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(188, 188, 190);
+    gap: 30px;
+    width: 100%;
+    max-width: 100%; 
+   
+
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    background-color: white;
+    padding: 15px;
+    margin-top: 20px;
+
+}
+
+.logo{
+    background-color:  rgb(188, 188, 190);
+    padding: 5px;
+}
+
+.link{
+    background-color:  rgb(188, 188, 190);
+    padding: 5px;
+
+}
+
+.hero{
+    display: flex;
+    padding: 5%;
+    background-color: white;
+    width: 783px;
+    justify-content: space-between;
+}
+
+
+.hero-texto{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px;
+
+    
+}
+
+.hero-title{
+    background-color: rgb(188, 188, 190);
+    width: 300px;
+   
+}
+
+.hero-image{
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    background-color: rgb(188, 188, 190);
+    
+}
+
